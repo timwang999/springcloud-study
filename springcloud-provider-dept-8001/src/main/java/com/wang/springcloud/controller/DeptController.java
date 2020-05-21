@@ -53,9 +53,9 @@ public class DeptController {
         for (ServiceInstance instance : instances) {
             System.out.println(
                     instance.getHost() + "\t" +
-                    instance.getPort() + "\t" +
-                    instance.getUri() + "\t" +
-                    instance.getServiceId()
+                            instance.getPort() + "\t" +
+                            instance.getUri() + "\t" +
+                            instance.getServiceId()
             );
         }
         return this.client;
